@@ -1,4 +1,4 @@
-import {initialTickets as tickets} from '../../../data';
+import {initialTickets as tickets} from '@/data';
 
 type TicketPageProps = {
     params: Promise<{
