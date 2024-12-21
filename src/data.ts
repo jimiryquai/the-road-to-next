@@ -23,5 +23,11 @@ export const initialTickets: Ticket[] = [
         title: "Database optimization",
         description: "Need to improve query performance",
         status: "in-progress" as const
+    }, 
+    {
+        id: 4,
+        title: "Noddy bug",
+        description: "Some noddy caused a bug",
+        status: "resolved" as const
     }
 ];
